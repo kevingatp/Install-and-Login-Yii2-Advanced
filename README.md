@@ -24,7 +24,6 @@ Documentation is at [docs/guide/README.md](docs/guide/README.md).
 ## PREREQUISITES
 Before we start to build our own application, firstly we should have web server and IDE in our local device.
 
-
 **Web Server**
 
 There are some excellent all-in-one Windows distributions that contain Apache, PHP, MySQL and other applications in a single installation file, e.g. **XAMPP (including a Mac version)**, **WampServer** and **Web.Developer**. In here I used **XAMPP** as Web Server.
@@ -33,11 +32,29 @@ There are some excellent all-in-one Windows distributions that contain Apache, P
 
 There are some excellent IDE for PHP such as NetBeans, Notepad++, and Sublime Text 3, but for me NetBeans is the most popular IDE for development. NetBeans editor provides many pre-configured code templates and code generation tools for faster development support, and In her I used **NetBeans** for IDE.
 
+**COMPOSER**
+
+Composer is a dependency manager for PHP. It solves the following problems:
+- Dependency resolution for PHP packages,
+- Autoloading solution for PHP packages,
+- Keeping all packages updated.
+
+
 DOWNLOAD:
 
 - XAMPP-7.3.3-1 [_Download_](https://pages.github.com/) for Windows x64    
 - NetBeans-11.0 [_Download_](https://pages.github.com/)
+- Composer [_Download_](http://bit.ly/2Kp6Y24)
 
 ## INSTALLATION
-## Install via Composer (recommended)
+After install all tools above, now we install the Yii2 project, there are 2 ways to do it.
 
+## Install via Composer (recommended)
+Get in to your local web server directory, for example: `C:\xampp\htdocs` and then run **_CMD_**.
+
+Run this following command
+> php composer.phar create-project yiisoft/yii2-app-advanced project_name
+
+## Install from an Archive File
+Download the following archive file, and then extract it to your local web server directory, for example: `C:\xampp\htdocs`.
+- Yii2 Advanced Template [_Download as ZIP_](http://bit.ly/2Ge50xh) [_Download as TAR.GZ_](http://bit.ly/2Z4e27F)
