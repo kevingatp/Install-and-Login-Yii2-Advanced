@@ -81,3 +81,23 @@ FILE LOCATION:
       - config
          - main-local.php //here is the file
 ```
+
+NOTE
+> some configuration files main.php, params.php, main-local.php, params-local.php. Files main.php and params.php are common for all environments, and files main-local.php and params-local.php are configurations for current environment. 
+> If you should have database for real and test, you should set different configuration for database component in main-local.php and params-local.php.
+> If you should to enable your configuration to project you should rewrite them in directory /environment. Because all `-local.php` files included into git-ignore section, that's why you can't find `-local.php` file in this repository.
+
+### Create Table
+Run **_CMD_** inside your project directory, and run this following command
+> php yii migrate
+
+This following command will generate `user` and `migrate` table inside your database. You can learn more about migrate in [here](https://www.yiiframework.com/doc/guide/2.0/en/db-migrations)
+
+### Create User Account
+Run your application in browser and access **Sign Up** menu, for example url `http://localhost/advanced/frontend/web/index.php?r=site%2Fsignup`.
+
+## DEVELOPMENT
+Finally you've installed your application successfully, now you can develop your application using your IDE, you can create needed table through Yii Migrate or manually from SQLEditor.
+
+### Generate 
+This framework use MVC(Model, View, and Controller) concept, so you can generate your needed file through Yii2 Generator from the URL `http://localhost/advanced/frontend/web/index.php?r=gii`. You should generate in both backend and frontend if you need to use both of them.
