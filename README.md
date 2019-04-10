@@ -101,5 +101,11 @@ Run your application in browser and access **Sign Up** menu, for example url `ht
 ## DEVELOPMENT
 Finally you've installed your application successfully, now you can develop your application using your IDE, you can create needed table through Yii Migrate or manually from SQLEditor.
 
-### Generate 
+### Generate File MVC
 This framework use **MVC**(Model, View, and Controller) concept, so you can generate your needed file through Yii2 Generator from the URL `http://localhost/advanced/frontend/web/index.php?r=gii`. You should generate in both backend and frontend if you need to use both of them.
+
+You can see my another repository for another magical Yii2 instruction.
+
+Thankyou.
+
+&copy; 2019 - <a href="mailto:kevingatpardosi@gmail.com">Kevin Pardosi</a>
