@@ -24,15 +24,20 @@ Documentation is at [docs/guide/README.md](docs/guide/README.md).
 ## PREREQUISITES
 Before we start to build our own application, firstly we should have web server and IDE in our local device.
 
+
 **Web Server**
+
 There are some excellent all-in-one Windows distributions that contain Apache, PHP, MySQL and other applications in a single installation file, e.g. **XAMPP (including a Mac version)**, **WampServer** and **Web.Developer**. In here I used **XAMPP** as Web Server.
 
 **IDE**
+
 There are some excellent IDE for PHP such as NetBeans, Notepad++, and Sublime Text 3, but for me NetBeans is the most popular IDE for development. NetBeans editor provides many pre-configured code templates and code generation tools for faster development support, and In her I used **NetBeans** for IDE.
 
 DOWNLOAD:
-    - XAMPP-7.3.3-1_[Download]_(https://pages.github.com/) for Windows x64
-    - NetBeans-11.0*[Download]*(https://pages.github.com/)
+
+    - XAMPP-7.3.3-1 [_Download_](https://pages.github.com/) for Windows x64
+    
+    - NetBeans-11.0 [_Download_](https://pages.github.com/)
 
 ## INSTALLATION
 ## Install via Composer (recommended)
