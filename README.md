@@ -42,8 +42,8 @@ Composer is a dependency manager for PHP. It solves the following problems:
 
 DOWNLOAD:
 
-- XAMPP-7.3.3-1 [_Download_](bit.ly/2InGmvO) for Windows x64    
-- NetBeans-11.0 [_Download_](https://pages.github.com/)
+- XAMPP-7.3.3-1 [_Download_](http://bit.ly/2InGmvO) for Windows x64    
+- NetBeans-11.0 [_Download_](http://bit.ly/2G4j1we)
 - Composer [_Download_](http://bit.ly/2Kp6Y24)
 
 ## INSTALLATION
@@ -84,7 +84,9 @@ FILE LOCATION:
 
 NOTE
 > some configuration files main.php, params.php, main-local.php, params-local.php. Files main.php and params.php are common for all environments, and files main-local.php and params-local.php are configurations for current environment. 
+
 > If you should have database for real and test, you should set different configuration for database component in main-local.php and params-local.php.
+
 > If you should to enable your configuration to project you should rewrite them in directory /environment. Because all `-local.php` files included into git-ignore section, that's why you can't find `-local.php` file in this repository.
 
 ### Create Table
@@ -100,4 +102,4 @@ Run your application in browser and access **Sign Up** menu, for example url `ht
 Finally you've installed your application successfully, now you can develop your application using your IDE, you can create needed table through Yii Migrate or manually from SQLEditor.
 
 ### Generate 
-This framework use MVC(Model, View, and Controller) concept, so you can generate your needed file through Yii2 Generator from the URL `http://localhost/advanced/frontend/web/index.php?r=gii`. You should generate in both backend and frontend if you need to use both of them.
+This framework use **MVC**(Model, View, and Controller) concept, so you can generate your needed file through Yii2 Generator from the URL `http://localhost/advanced/frontend/web/index.php?r=gii`. You should generate in both backend and frontend if you need to use both of them.
