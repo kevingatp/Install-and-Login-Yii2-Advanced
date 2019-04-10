@@ -35,9 +35,8 @@ There are some excellent IDE for PHP such as NetBeans, Notepad++, and Sublime Te
 
 DOWNLOAD:
 
-    - XAMPP-7.3.3-1 [_Download_](https://pages.github.com/) for Windows x64
-    
-    - NetBeans-11.0 [_Download_](https://pages.github.com/)
+- XAMPP-7.3.3-1 [_Download_](https://pages.github.com/) for Windows x64    
+- NetBeans-11.0 [_Download_](https://pages.github.com/)
 
 ## INSTALLATION
 ## Install via Composer (recommended)
